@@ -8,3 +8,11 @@ Experimental brew installer for [RumbleDB](https://github.com/RumbleDB/rumble) o
 brew tap daviddao/rumble
 brew install --build-from-source rumble
 ```
+
+### Usage
+
+```
+rumbledb serve -p 9090
+rumbledb run -q '1+1'
+rumbledb repl
+```
