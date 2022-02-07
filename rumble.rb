@@ -5,7 +5,7 @@ class Rumble < Formula
   desc "RumbleDB 1.17.0 'Cacao tree' for Apache Spark | Run queries on your large-scale, messy JSON-like data (JSON, text, CSV, Parquet, ROOT, AVRO, SVM...) | No install required (just a jar to download) | Declarative Machine Learning and more"
   homepage "http://rumbledb.org/"
   url "https://github.com/daviddao/homebrew-rumble/releases/download/1.17.0-brew/rumble-brew-1.17.0.tar.gz"
-  sha256 "2642f538ea3780f63756c8c49ac97b81d9c4f848deb6248c16f7ec63751557c8"
+  sha256 "21ebe235b3ff0e306eea3ce2d28f5186da0edf5c64236f5feb43e12309538d3d"
   license "MIT"
 
   depends_on "apache-spark"
