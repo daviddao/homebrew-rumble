@@ -13,7 +13,7 @@ class Rumble < Formula
   def install
     lib.install Dir["*"]
     bin.install Dir[lib/"bin/*"]
-    bin.env_script_all_files(lib/"bin", SPARK_HOME: Formula["apache-spark"].prefix)
+    bin.env_script_all_files(lib/"bin", SPARK_HOME: Formula["apache-spark"].bin)
   end
 
   test do
