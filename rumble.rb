@@ -7,6 +7,10 @@ class Rumble < Formula
   url "https://github.com/daviddao/homebrew-rumble/releases/download/1.17.0-brew/rumble-brew-1.17.0.tar.gz"
   sha256 "2642f538ea3780f63756c8c49ac97b81d9c4f848deb6248c16f7ec63751557c8"
   license "MIT"
+  
+  bottle do
+    sha256 cellar: :any_skip_relocation, all: "3f8f3309dfef579496100aad618c4f46b55795497fe259f2accb0da0c15da7ec"
+  end
 
   depends_on "apache-spark"
 
